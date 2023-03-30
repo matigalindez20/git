@@ -1,9 +1,99 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab&display=swap');
+
+
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: linear-gradient(rgb(153, 235, 116), rgb(95, 93, 93));
 }
 
 header{
-    background-color: aqua;
+    background-color: rgb(153, 235, 116);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-1{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 10px 20px 10px 20px;
+}
+
+.nav-2{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.logo-1{
+    width: 30%;
+    margin: 10px 10px;
+
+}
+
+.insta{
+    font-size: 45px;
+    color: black;
+    
+}
+
+main section h1{
+    text-shadow: 5px 5px 5px black;
+    padding: 15px 15px;
+    margin: 15px 15px;
+}
+
+.conteiner-0{
+    margin: 15px auto 15px auto;
+    width: 90%;
+    height: 500px;
+}
+
+.img-portada{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+
+.img-portada:hover{
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+.titulo-principal{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.titulo-final{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+.contacto-final{
+    font-style: italic;
+    list-style: none;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(95, 93, 93);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.logo-2{
+    width: 30%;
+    border-radius: 70%;
+    margin: 10px 10px;
 }
